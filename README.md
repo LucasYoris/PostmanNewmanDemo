@@ -28,8 +28,10 @@
 **precondition:** need to install node.js first
 	
 **- install newman**
+
 		npm install -g newman
 **- install newman allure reporter-allure**
+
 		npm install -g newman-reporter-allure
 
 **5.B) Execute Postman collection with newman/jenkins**
@@ -47,11 +49,15 @@ or
 **--GENERATE REPORT**
 
 **SERVE(generate temp file)**
+
 	allure serve C:\Users\1\Desktop\Postman\postman-demo\results
 
 **GENERATE HTML(generate html report in a file)**
+
 	allure generate C:\Users\1\Desktop\Postman\postman-demo\results
 
 **7. http-server install**
+
 	npm install -g http-server
+	
 	D:\ExampleFolder\result http-server
