@@ -25,24 +25,24 @@
 
 **5.A) Install newman and newman-allure-report**
 
-	**precondition:** need to install node.js first
+**precondition:** need to install node.js first
 	
-	**- install newman**
+**- install newman**
 		npm install -g newman
-	**- install newman allure reporter-allure**
+**- install newman allure reporter-allure**
 		npm install -g newman-reporter-allure
 
 **5.B) Execute Postman collection with newman/jenkins**
 
-newman run demo-collection.postman_collection.json -e automation-environment.postman_environment.json
+	newman run demo-collection.postman_collection.json -e automation-environment.postman_environment.json
 or
-"C:\Users\1\AppData\Roaming\npm\newman" run demo-collection.postman.collection.json -e automation-environment.postman_environment.json
+	"C:\Users\1\AppData\Roaming\npm\newman" run demo-collection.postman.collection.json -e automation-environment.postman_environment.json
 
 **6. Execute Postman collection with newman/jenkins + allure report**
 
 **--EXECUTE**
 
-newman run demo-collection.postman_collection.json -e automation-environment.postman_environment.json -r allure --reporter-allure-export C:\Users\1\Desktop\Postman\postman-demo\results
+	newman run demo-collection.postman_collection.json -e automation-environment.postman_environment.json -r allure --reporter-allure-export C:\Users\1\Desktop\Postman\postman-demo\results
 
 **--GENERATE REPORT**
 
@@ -53,5 +53,5 @@ newman run demo-collection.postman_collection.json -e automation-environment.pos
 	allure generate C:\Users\1\Desktop\Postman\postman-demo\results
 
 **7. http-server install**
-npm install -g http-server
-D:\TestFolder\result http-server
+	npm install -g http-server
+	D:\ExampleFolder\result http-server
