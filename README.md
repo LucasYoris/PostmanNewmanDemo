@@ -43,11 +43,11 @@ newman run demo-collection.postman_collection.json -e automation-environment.pos
 
 --GENERATE REPORT
 
-	SERVE(generate temp file)
-allure serve C:\Users\1\Desktop\Postman\postman-demo\results
+SERVE(generate temp file)
+	allure serve C:\Users\1\Desktop\Postman\postman-demo\results
 
-	GENERATE HTML(generate html report in a file)
-allure generate C:\Users\1\Desktop\Postman\postman-demo\results
+GENERATE HTML(generate html report in a file)
+	allure generate C:\Users\1\Desktop\Postman\postman-demo\results
 
 7. http-server install
 npm install -g http-server
