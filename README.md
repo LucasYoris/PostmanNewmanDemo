@@ -38,6 +38,7 @@ or
 6. Execute Postman collection with newman/jenkins + allure report
 
 --EXECUTE
+
 newman run demo-collection.postman_collection.json -e automation-environment.postman_environment.json -r allure --reporter-allure-export C:\Users\1\Desktop\Postman\postman-demo\results
 
 --GENERATE REPORT
