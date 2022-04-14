@@ -36,11 +36,15 @@ or
 "C:\Users\1\AppData\Roaming\npm\newman" run demo-collection.postman.collection.json -e automation-environment.postman_environment.json
 
 6. Execute Postman collection with newman/jenkins + allure report
+
 --EXECUTE
 newman run demo-collection.postman_collection.json -e automation-environment.postman_environment.json -r allure --reporter-allure-export C:\Users\1\Desktop\Postman\postman-demo\results
+
 --GENERATE REPORT
+
 	SERVE(generate temp file)
 allure serve C:\Users\1\Desktop\Postman\postman-demo\results
+
 	GENERATE HTML(generate html report in a file)
 allure generate C:\Users\1\Desktop\Postman\postman-demo\results
 
