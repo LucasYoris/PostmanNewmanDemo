@@ -24,7 +24,9 @@
 # Newman installation and cmd commands	
 
 **5.A) Install newman and newman-allure-report**
+
 	**precondition:** need to install node.js first
+	
 	**- install newman**
 		npm install -g newman
 	**- install newman allure reporter-allure**
