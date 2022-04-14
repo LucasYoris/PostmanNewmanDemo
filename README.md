@@ -38,6 +38,7 @@
 
 	newman run demo-collection.postman_collection.json -e automation-environment.postman_environment.json
 or
+
 	"C:\Users\1\AppData\Roaming\npm\newman" run demo-collection.postman.collection.json -e automation-environment.postman_environment.json
 
 **6. Execute Postman collection with newman/jenkins + allure report**
